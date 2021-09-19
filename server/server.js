@@ -4,7 +4,8 @@ const path = require('path');
 
 const db = require('./config/connection');
 const { typeDefs, resolvers } = require('./schemas');
-// token middleware from schemas
+// token middleware SERVER authorization, allows a user to do stuff with data once confirmed is user
+const { authMiddleware } = require('./utils/auth');
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -12,6 +13,7 @@ const PORT = process.env.PORT || 3001;
 const server = new ApolloServer({
   typeDefs,
   resolvers,
+  context: authMiddleware,
 });
 
 server.applyMiddleware({ app });

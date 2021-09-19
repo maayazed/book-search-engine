@@ -25,6 +25,7 @@ const userSchema = new Schema(
     savedBooks: [bookSchema],
   },
   // set this to use virtual below
+  // this means the value returned is NOT persisted to the database. Intended for display returned shortcuts.
   {
     toJSON: {
       virtuals: true,
