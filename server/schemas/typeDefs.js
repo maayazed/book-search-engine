@@ -7,6 +7,7 @@ const typeDefs = gql`
     username: String
     email: String
     password: String
+    bookCount: int
     savedBooks: [Book]!
   }
 
@@ -19,8 +20,32 @@ const typeDefs = gql`
     authors: [String]
   }
 
+  // an input allows consistent client side mutations to get a book from a input field
+
+  input bookInfo {
+    description: String
+    bookId: String
+    image: String
+    link: String
+    title: String
+    authors: [String]
+  }
+
   type Auth {
     token: ID!
     user: User
   }
+
+  type Query {
+    me: User
+  }
+
+  type Mutation {
+    addUser(username: String!, email: String!, password: String!): Auth
+    login(email: String!, password: String!): Auth
+    saveBook(input: bookInfo!): User
+    removeBook(bookId: ID!): User
+  }
 `;
+
+module.exports = typeDefs;
