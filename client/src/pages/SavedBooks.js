@@ -7,7 +7,7 @@ import { useParams } from 'react-router-dom';
 import Auth from '../utils/auth';
 import { removeBookId } from '../utils/localStorage';
 
-import { useMutation, useQuery } from '@apollo/client';
+import { useMutation, useQuery } from '@apollo/react-hooks';
 import { GET_ME, GET_USER } from '../utils/queries';
 import { REMOVE_BOOK } from '../utils/mutations';
 
