@@ -11,7 +11,7 @@ const resolvers = {
         return userData;
       }
       throw new AuthenticationError('You are not signed in');
-    },
+    }
   },
 
   Mutation: {
@@ -37,13 +37,14 @@ const resolvers = {
       return { token, user };
     },
 
-    saveBook: async (parent, { input }, context) => {
+    saveBook: async (parent, { bookData }, context) => {
       if (context.user) {
         const updateUser = await User.findOneAndUpdate(
           { _id: context.user._id },
-          { $addToSet: { savedBooks: input } },
+          { $push: { savedBooks: bookData } },
           { new: true }
         );
+        console.log(bookData);
         return updateUser;
       }
       throw new AuthenticationError('You need to login to save a book!')
