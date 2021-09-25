@@ -2,6 +2,10 @@
   "name": "server",
   "version": "1.0.0",
   "description": "",
+  "engines": {
+    "npm": "7.x",
+    "node": "16.x"
+  },
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -18,6 +22,7 @@
     "mongoose": "^5.9.10"
   },
   "devDependencies": {
+    "@heroku/buildpack-registry": "^1.0.1",
     "nodemon": "^2.0.3"
   }
 }
