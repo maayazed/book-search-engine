@@ -20,42 +20,50 @@ mutation addUser($username: String!, $email: String!, $password: String!) {
       _id
       username
       email
+      savedBooks {
+        bookId
+        authors
+        image
+        description
+        title
+        link
+      }
     }
   }
 }
 `;
 
 export const SAVE_BOOK = gql`
-  mutation saveBook($input: bookInfo) {
-    saveBook($input: input) {
+  mutation saveBook($bookData: bookInput!) {
+    saveBook(bookData: $bookData) {
       _id
       username
-      bookCount
+      email
       savedBooks {
-        description
         bookId
-        image
-        link
-        title
         authors
+        image
+        description
+        title
+        link
       }
     }
   }
 `;
 
 export const REMOVE_BOOK = gql`
-  mutation removeBook($bookId: String!) {
+  mutation removeBook($bookId: ID!) {
     removeBook(bookId: $bookId) {
       _id
       username
-      bookCount
+      email
       savedBooks {
-        description
         bookId
-        image
-        link
-        title
         authors
+        image
+        description
+        title
+        link
       }
     }
   }

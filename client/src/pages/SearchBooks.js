@@ -74,8 +74,8 @@ const SearchBooks = () => {
     // execute query here
     try {
       // const response = await saveBook(bookToSave, token);
-      const { data } = await saveBook({
-        variables: { bookData: { ...bookToSave.bookId } }
+      await saveBook({
+        variables: { bookData: { ...bookToSave } }
       });
 
       if (error) {

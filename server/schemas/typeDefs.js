@@ -3,32 +3,30 @@ const { gql } = require('apollo-server-express');
 
 const typeDefs = gql`
   type User {
-    _id: ID
-    username: String
+    _id: ID!
+    username: String!
     email: String
     password: String
-    bookCount: int
-    savedBooks: [Book]!
+    bookCount: Int
+    savedBooks: [Book]
   }
 
   type Book {
+    bookId: ID!
+    authors: [String]
     description: String
-    bookId: String
     image: String
     link: String
-    title: String
-    authors: [String]
+    title: String!
   }
 
-  // an input allows consistent client side mutations to get a book from a input field
-
-  input bookInfo {
+  input bookInput {
+    authors: [String]
     description: String
-    bookId: String
+    bookId: String!
     image: String
     link: String
-    title: String
-    authors: [String]
+    title: String!
   }
 
   type Auth {
@@ -37,14 +35,13 @@ const typeDefs = gql`
   }
 
   type Query {
-    user(username: String!): User
     me: User
   }
 
   type Mutation {
     addUser(username: String!, email: String!, password: String!): Auth
     login(email: String!, password: String!): Auth
-    saveBook(input: bookInfo!): User
+    saveBook(bookData: bookInput!): User
     removeBook(bookId: ID!): User
   }
 `;
