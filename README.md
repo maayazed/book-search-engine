@@ -16,7 +16,7 @@
 </div>
 
 <div align='center'>
-<img src='https://user-images.githubusercontent.com/79816212/133725790-77bc2494-3418-499f-8a12-2419bd08de0b.png'/>
+
 </div>
 
 <div align='center'>
@@ -45,7 +45,7 @@
 <h2 align="center"><strong><a href='https://maayazed.github.io/react-portfolio-works/'>LIVE DEMO</a></strong></h2>
  
 <div align='center'>
-<img src='https://user-images.githubusercontent.com/79816212/133725956-02768fbe-808b-4fc4-83e8-4a4c9ed2cb28.png'/>
+
 </div>
 
 <hr>
@@ -56,7 +56,7 @@
 
 <div>
 <h4>Instructions: </h4>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;View from repository via provided <a href='https://maayazed.github.io/react-portfolio-works/'>link</a>. App deployment brought to you by <code><strong>🚀github-pages</strong></code>.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;View from repository via provided <a href=''>link</a>. App deployment brought to you by <code><strong>🚀github-pages</strong></code>.
 </div>
 
 <hr>
@@ -67,10 +67,7 @@
 
 <div>
 <h4>Guide: </h4> 
-<p>📧<strong>Fourm</strong>: The <img src='https://img.shields.io/badge/nav-contact-ff69b4.svg'/> will drop down a forum for contacting my work email.</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⚠️ You cannot submit the forum unless all three fields are filled. Submit the contact field as a valid email.</p>
-<p>💾<strong>Resume</strong>: The <img src='https://img.shields.io/badge/nav-resume-ff69b4.svg'/> downloads a pdf file of my LinkedIn resume.</p>
-<p>🔗<strong>Page Links</strong>: This app has external and local routes. External links to my displayed work via 📄description or 🖼️image will open in a new tab. Local routes will take you to a spot on the page described.</p>
+
 </div>
 
 <hr>
@@ -91,8 +88,8 @@
 </div>
 
 <div>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='https://github.com/maayazed/'><img src='https://img.shields.io/badge/User-maayazed-blue'>
-</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='https://github.com/maayazed/'><img src='https://img.shields.io/badge/User-maayazed-blue'></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; in collaboration with &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href='https://ccaps.umn.edu/full-stack-web-development-certificate-coding-boot-camp'><img src='https://user-images.githubusercontent.com/79816212/124851684-9edfec00-df68-11eb-9686-3e92a871c50d.png' width="50%" height="50%"></a></div>
 
 <hr>
 
