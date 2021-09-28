@@ -37,8 +37,7 @@
 </div>
 
 <div>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Portfolio works is my personal developer landing page that contains a display of advertised projects from <code><strong><a href='https://github.com/maayazed'>this</a></strong></code> github user. This application utilizes <code><strong>⚛️react</strong></code> language deployed to the client side. Default manifest is <a href='https://github.com/maayazed/react-portfolio-works/tree/main/public'>public repo</a>. Design is default CSS with no external library.
-</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 <br>
  
