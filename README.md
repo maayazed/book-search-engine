@@ -17,8 +17,9 @@
 </div>
 
 <div align='center'>
-
+<img src='https://user-images.githubusercontent.com/79816212/135177026-38aeec2f-7782-437c-82a4-7d845fcf75ad.gif'/>
 </div>
+
 
 <div align='center'>
 <strong>Table of Contents</strong>  
@@ -56,7 +57,7 @@
 
 <div>
 <h4>Instructions: </h4>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;View from repository via provided <a href='https://protected-castle-23536.herokuapp.com/'>link</a>. App deployment brought to you by <code><strong>⚛️heroku</strong></code>.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;View from repository via provided <a href='https://protected-castle-23536.herokuapp.com/'>link</a>. App deployment brought to you by <code><strong>⚛️Heroku</strong></code>.
 </div>
 
 <hr>
