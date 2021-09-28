@@ -10,7 +10,7 @@
     <img src='https://badges.aleen42.com/src/react.svg'/>
     <img src='https://badges.aleen42.com/src/javascript.svg'/>
     <img src='https://img.shields.io/badge/-mongoDB-green'/>
-    <img src='https://img.shields.io/badge/-mongoDB-pink'/>
+    <img src='https://img.shields.io/badge/-GraphQL-pink'/>
     <img src='https://img.shields.io/github/repo-size/maayazed/book-search-engine'/>
     <img src='https://img.shields.io/github/languages/top/maayazed/book-search-engine'/>
     <a href="https://github.com/maayazed"><img src="https://img.shields.io/github/followers/maayazed?style=social" target="_blank"/></a>
