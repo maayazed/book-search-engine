@@ -8,7 +8,6 @@
     <img src='https://badges.aleen42.com/src/npm.svg'/>
     <img src='https://badges.aleen42.com/src/node.svg'/>
     <img src='https://badges.aleen42.com/src/react.svg'/>
-    <img src='https://badges.aleen42.com/src/javascript.svg'/>
     <img src='https://img.shields.io/badge/-mongoDB-green'/>
     <img src='https://img.shields.io/badge/-GraphQL-pink'/>
     <img src='https://img.shields.io/badge/-Apollo-grey'/>
