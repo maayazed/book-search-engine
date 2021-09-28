@@ -42,7 +42,7 @@
 
 <br>
  
-<h2 align="center"><strong><a href='https://maayazed.github.io/react-portfolio-works/'>LIVE DEMO</a></strong></h2>
+<h2 align="center"><strong><a href='https://protected-castle-23536.herokuapp.com/'>LIVE DEMO</a></strong></h2>
  
 <div align='center'>
 
@@ -56,7 +56,7 @@
 
 <div>
 <h4>Instructions: </h4>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;View from repository via provided <a href=''>link</a>. App deployment brought to you by <code><strong>🚀github-pages</strong></code>.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;View from repository via provided <a href='https://protected-castle-23536.herokuapp.com/'>link</a>. App deployment brought to you by <code><strong>⚛️heroku</strong></code>.
 </div>
 
 <hr>
