@@ -71,12 +71,11 @@
 <div>
 <h4>Guide: </h4> 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;From the homepage search for a book using the search bar. Only 10 books can show at a time.
-<pre><code></code></pre>
 <pre><code>IF you are authorized
 THEN you can ✔️<strong>Save a Book!</strong>
 && you can 👉<strong>See Your Books</strong> from navigation
-&& you can ❌<strong>Delete a Book!</strong>from your user</code></pre>
-⚠️ Only registered users will pass authorization.
+&& you can ❌<strong>Delete a Book!</strong> from your user</code></pre>
+⚠️ Only registered users will pass authorization you can signup from <code><strong>Login/SignUp</strong></code> from navigation.
 </div>
 
 <hr>
