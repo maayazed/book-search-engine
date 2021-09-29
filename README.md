@@ -39,7 +39,7 @@
 </div>
 
 <div>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Google Book Search is a refactored GraphQL API built with Apollo Server using a MERN stack framework that enables the Google Books API search engine. Authorization allows users to add, view, and remove books from their account page. All users can search for a book.
 
 <br>
 
