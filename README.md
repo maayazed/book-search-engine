@@ -75,8 +75,8 @@
 THEN you can ✔️<strong>Save a Book!</strong>
 && you can 👉<strong>See Your Books</strong> from navigation
 && you can ❌<strong>Delete a Book!</strong> from your user</code></pre>
-⚠️ Only registered users will pass authorization.
-❓ You can signup from <code><strong>Login/SignUp</strong></code> at navigation.
+<p>⚠️ Only registered users will pass authorization.</p>
+<p>❓ You can signup from <code><strong>Login/SignUp</strong></code> at navigation.</p>
 </div>
 
 <hr>
