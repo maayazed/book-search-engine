@@ -59,7 +59,7 @@
 
 <div>
 <h4>Instructions: </h4>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;View from repository via provided <a href='https://protected-castle-23536.herokuapp.com/'>link</a>. App deployment brought to you by <code><strong>⚛️Heroku</strong></code>.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;View from repository via provided <a href='https://protected-castle-23536.herokuapp.com/'>link</a>. App deployment brought to you by <code><strong><a href='https://www.heroku.com/free'>⚛️Heroku</a></strong></code>.
 </div>
 
 <hr>
